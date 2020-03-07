@@ -11,28 +11,28 @@
 # print(f'{times[0]}: {times[1][1]}, {times[2]}: {times[3][2]}, {times[3][1]}')
 # print(f'{times[0]}: {times[1][2]}, {times[2]}: {times[3][0]}, {times[3][1]}, {times[3][3]}')
 
-# dado o dicionario:
+# # dado o dicionario:
 
-dados = {
-    'estados': {
-        'sp':{
-            'nome': 'São Paulo',
-            'municipios': 645,
-            'populacao': 44.04
-        },
-        'rj':{
-            'nome': 'Rio de Janeiro',
-            'municipios': 92,
-            'populacao': 16.72
-        },
-        'mg':{
-            'nome': 'Minas Gerais',
-            'municipios': 31,
-            'populacao': 20.87
-        }
-    }
+# dados = {
+#     'estados': {
+#         'sp':{
+#             'nome': 'São Paulo',
+#             'municipios': 645,
+#             'populacao': 44.04
+#         },
+#         'rj':{
+#             'nome': 'Rio de Janeiro',
+#             'municipios': 92,
+#             'populacao': 16.72
+#         },
+#         'mg':{
+#             'nome': 'Minas Gerais',
+#             'municipios': 31,
+#             'populacao': 20.87
+#         }
+#     }
 
-}
+# }
 
 # Imprima as seguintes informações:
 
@@ -65,3 +65,16 @@ if media >= 7 :
     print(f'Voce foi aprovado, sua media e {media}')
 else:
     print(f'Voce foi reprovado, sua media e {media}')
+
+# receber dois valores e imprimir o maior
+
+n1 = float(input('Digite o primeiro numero: '))
+n2 = float(input('Digite o segundo numero: '))
+
+if n1 > n2:
+    print(n1)
+elif n1 == n2:
+    print('Numeros iguais')
+else:
+    print(n2)
+
