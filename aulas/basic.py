@@ -27,9 +27,11 @@
 
 # print(str(soma))
 
-texto = 'esse é um texto'
+# texto = 'esse é um texto'
 
-print(texto.upper())
-print(texto.lower())
-print(texto.capitalize())
-print(texto.split(' '))
+# print(texto.upper())
+# print(texto.lower())
+# print(texto.capitalize())
+# print(texto.split(' '))
+# print(texto.replace('e','a'))
+
